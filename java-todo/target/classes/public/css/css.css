@@ -1,0 +1,28 @@
+h1 {
+  font-size: 14px;
+}
+#table-header {
+  font-size: 16px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+}
+
+.nav{
+  margin-bottom: 15px;
+
+}
+table{
+  margin-top: 10px;
+}
+
+.div-select {
+  padding-left:0px;
+  padding-right:25px;
+}
+
+#task-status {
+  text-transform: capitalize;
+}

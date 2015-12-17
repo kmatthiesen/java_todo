@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>TO-DO List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/../css/css.css">
+    <script src="https://cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="/../javascript/delete.js"></script>
+
+
+  </head>
+  <body>
+    <div class= "container">
+
+      <div class ="col-md-offset-2 col-md-8">
+
+        <div class="nav navbar">
+  				<div class="col-md-3">
+  					<h1 ><a href="/">View Tasks</a></h1>
+  				</div>
+  				<div class="col-md-3">
+  					<h1><a href="/create">Create Task</a></h1>
+  				</div>
+  				<div class="col-md-3">
+  					<h1><a href="/update">Update Task</a></h1>
+  				</div>
+  				<div class="col-md-3">
+  					<h1><a href="/delete">Delete Tasks</a></h1>
+  				</div>
+  			</div>
+
+        <div>
+          <form class="form-horizontal" id="task-delete">
+
+            <div class="form-group">
+              <select class="form-control" id="task-delete-list">
+                <option>Select a Task</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn btn-default">Delete</button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

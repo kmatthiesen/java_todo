@@ -1,0 +1,5 @@
+com.catalyst.springboot
+com.catalyst.springboot.controllers
+com.catalyst.springboot.dao
+com.catalyst.springboot.entities
+com.catalyst.springboot.webservices
